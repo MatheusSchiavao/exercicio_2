@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="carrinho.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <title>Trindade Fullstack</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-header">
+      <ul style="width: 890px; margin-block-end: auto;">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="carrinho.html">Pedido</a></li>
+        <li><a href="dev.html">Desenvolvedores</a></li>
+      </ul>
+    </div>
+  </header>
+  <br>
+  <form method="post" action="pag.php">
+    <div class="tabela">
+      <table border="2" style="width: 50%; margin-left: 23.4%; margin-top: 12%;">
+        <tr>
+          <th>Pedido</th>
+          <th>Preço</th>
+          <th>Quantidades</th>
+        </tr>
+        <tr>
+          <td>Camiseta Regata<br></td>
+          <td>19.90</td>
+          <td><input type="number" name="q_regata" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Camisa Social<br></td>
+          <td>59.90</td>
+          <td><input type="number" name="q_cam_social" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Blusa<br></td>
+          <td>30.90</td>
+          <td><input type="number" name="q_blusa" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Pullover<br></td>
+          <td>119.90</td>
+          <td><input type="number" name="q_pullover" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Sapato<br></td>
+          <td>99.90</td>
+          <td><input type="number" name="q_sapato" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Calça<br></td>
+          <td>38.90</td>
+          <td><input type="number" name="q_calca" value="0" style="width:  90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Meias<br></td>
+          <td>9.90</td>
+          <td><input type="number" name="q_meias" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Luvas<br></td>
+          <td>24.90</td>
+          <td><input type="number" name="q_luvas" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Jaqueta<br></td>
+          <td>329.90</td>
+          <td><input type="number" name="q_jaqueta" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Bermuda<br></td>
+          <td>69.90</td>
+          <td><input type="number" name="q_bermuda" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Chinelo<br></td>
+          <td>14.90</td>
+          <td><input type="number" name="q_chinelo" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+        <tr>
+          <td>Boné<br></td>
+          <td>6.90</td>
+          <td><input type="number" name="q_bone" value="0" style="width: 90px; margin-left: 32%;"></td>
+        </tr>
+      </table>
+      <br>
+        <a href="pag.php"><button type="submit" class="btn-carrinho">Finalizar pedido</button></a>
+    </div>
+  </form>
+</body>
+
+</html>

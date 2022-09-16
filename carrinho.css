@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(images/4884273.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 99;
+  margin-top: 0;
+}
+
+header .menu-header ul {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+}
+
+header .menu-header ul li {
+  padding: 0 7px;
+  list-style: none;
+}
+
+header .menu-header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+header .menu-header ul li a:hover {
+  color: #0da5d3;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.tabela {
+  margin-top: 100PX;
+  height: 100px;
+}
+
+.btn-carrinho {
+  margin-left: 44.7%;
+  border: 2px solid #000;
+  background-color: #ddd;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+}
